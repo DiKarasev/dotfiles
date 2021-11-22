@@ -1,22 +1,3 @@
-filetype off
-set nocompatible
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
-
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
-Plugin 'kien/ctrlp.vim'
-Plugin 'henrik/vim-indexed-search'
-Plugin 'lyuts/vim-rtags'
-Plugin 'kopischke/vim-fetch'
-Plugin 'tmux-plugins/vim-tmux'
-Plugin 'gnattishness/cscope_maps'
-
-call vundle#end()
-filetype plugin indent on
-
 " global preferences "
 colorscheme torte
 set nu
